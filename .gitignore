@@ -1,0 +1,42 @@
+# ============================================================
+# FORESTWATCH - GITIGNORE
+# ============================================================
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# ============================================================
+# DATASET
+# Large GeoTIFF files should NOT be committed to GitHub
+# ============================================================
+
+data/raw/
+data/raw_corrected/
+data/labels/
+data/labels_aligned/
+data/processed/
+
+# GeoTIFF files anywhere in the project
+*.tif
+*.tiff
+
+# ============================================================
+# IDE / Editor
+# ============================================================
+
+.vscode/
+.idea/
+
+# ============================================================
+# OS files
+# ============================================================
+
+.DS_Store
+Thumbs.db

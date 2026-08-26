@@ -388,7 +388,7 @@ def analyze_period(
         )
 
 
-    # --------------------------------------------------------
+       # --------------------------------------------------------
     # Distribution of positive-pixel percentage
     # --------------------------------------------------------
 
@@ -425,7 +425,19 @@ def analyze_period(
         )
 
         print(
+            f"  >= 0.25%: {np.sum(values >= 0.25):,}"
+        )
+
+        print(
+            f"  >= 0.5% : {np.sum(values >= 0.5):,}"
+        )
+
+        print(
             f"  >= 1%   : {np.sum(values >= 1.0):,}"
+        )
+
+        print(
+            f"  >= 2%   : {np.sum(values >= 2.0):,}"
         )
 
         print(

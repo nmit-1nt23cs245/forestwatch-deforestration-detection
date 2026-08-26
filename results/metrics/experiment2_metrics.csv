@@ -1,0 +1,2 @@
+experiment,accuracy,precision,recall,f1,roc_auc,pr_auc,true_negative,false_positive,false_negative,true_positive
+14-channel Temporal ResNet50 - Experiment 2,0.8482,0.8108,0.9524,0.8759,0.9666,0.9803,35,14,3,60
